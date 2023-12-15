@@ -1,0 +1,17 @@
+#b1
+{
+    width: 8rem;
+    height: 5rem;
+    color: black;
+    border-color: black;
+    font-size: 2rem;
+}
+#bio,#node,#follower,#name
+{
+    padding: 1rem;
+    margin: 1rem;
+    height:3rem;
+    background-color: lightgrey;
+    color: black;
+    font-size: 1.5rem;
+}

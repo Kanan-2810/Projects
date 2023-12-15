@@ -1,0 +1,78 @@
+.temper {
+    display: flex;
+    background-color: lightblue;
+    margin: 1rem;
+    padding: 1rem;
+
+}
+
+.timer {
+    padding: 1rem;
+    margin: .5rem;
+    background-color: aliceblue;
+    color: black;
+    font-size: 1.25rem;
+
+}
+
+.container {
+    padding: 1rem;
+    margin: .5rem;
+    background-color: burlywood;
+    color: black;
+    font-size: 1.5rem;
+}
+
+#tasklist {
+    background-color: lightgray;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#btn1,
+#btn2,
+.dell {
+    margin: 1rem;
+    padding: 1rem;
+    height: 3rem;
+    width: 10rem;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.Main {
+    margin: 1rem;
+    padding: 1rem;
+
+}
+
+#text {
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    border: 5px solid burlywood;
+    outline: none;
+    border-radius: 10px;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.checker {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 1.5rem;
+
+}
+
+#sortopt {
+    width: 10rem;
+    height: 3rem;
+    background-color: lightsalmon;
+    color: black;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO List</title>
+    <link rel="stylesheet" href="p1.css">
+</head>
+
+<body>
+    <div class="Main">
+        <h1>TaskBox</h1>
+        <h3>Enter the task:</h3>
+        <textarea cols="40" rows="5" id="text"></textarea>
+        <button id="btn1">addTask</button>
+        <button id="btn2">deleteAllTasks</button>
+    </div>
+    <div>
+        <select id="sortopt" >
+            <option value="All">Sort All Task</option>
+            <option value="true">Completed Tasks</option>
+            <option value="false">Incompleted Tasks</option>
+
+        </select>
+    </div>
+    <div id="tasklist"></div>
+
+</body>
+<script src="p1.js"></script>
+
+</html>
