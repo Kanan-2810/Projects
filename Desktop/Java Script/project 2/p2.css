@@ -1,0 +1,60 @@
+#row1,
+#row2,
+#row3 {
+    display: flex;
+
+    height: 8rem;
+    width: 18rem;
+    background-color: black;
+
+
+}
+
+#col11,
+#col12,
+#col13,
+#col21,
+#col22,
+#col23,
+#col31,
+#col32,
+#col33 {
+    margin: 1rem;
+    height: 5rem;
+    width: 5rem;
+    background-color: lightgray;
+}
+
+#h1 {
+    color: red;
+
+}
+
+#b1 {
+
+    margin: 1rem;
+    height: 4rem;
+    width: 4rem;
+    background-color: slategray;
+    color: black;
+    border-color: black;
+    border-radius: 5px;
+    font-size: 2rem;
+}
+
+#b2 {
+    margin: 1rem;
+    height: 4rem;
+    width: 4rem;
+    background-color: slategray;
+    color: black;
+    border-color: black;
+    border-radius: 5px;
+    font-size: 2rem;
+
+}
+
+#div1 {
+    font-size: 2rem;
+    color: peru;
+}
