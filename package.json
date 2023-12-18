@@ -1,0 +1,28 @@
+{
+  "name": "projects",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+      "start": "node Node/main.js",
+      "dev":"nodemon Node/main.js"
+      
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kanan-2810/Projects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kanan-2810/Projects/issues"
+  },
+  "homepage": "https://github.com/Kanan-2810/Projects#readme",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
