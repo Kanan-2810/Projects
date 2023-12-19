@@ -1,9 +1,11 @@
 const http = require('http')
 const server = http.createServer((req, res) => {
-    if (req.url === '/') {
+    if(req.url==='/')
+    {
         res.end("welcome to the backend part")
     }
-    if (req.url === '/about') {
+    if(req.url==='/about')
+    {
         res.end("the more information is here")
     }
     res.end(`

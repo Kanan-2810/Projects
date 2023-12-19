@@ -1,11 +1,10 @@
 {
   "name": "projects",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-      "start": "node Node/main.js",
-      "dev":"nodemon Node/main.js"
-      
+    "start": "nodemon main.js",
+    "dev": " node main.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +19,7 @@
   "keywords": [],
   "description": "",
   "dependencies": {
+    "express": "^4.18.2",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
